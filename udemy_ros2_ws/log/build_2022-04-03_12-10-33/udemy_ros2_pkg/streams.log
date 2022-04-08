@@ -1,0 +1,18 @@
+[0.052s] Invoking command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.163s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.256s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.951s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.956s] CMake Error at CMakeLists.txt:31 (install):
+[0.957s]   install does not recognize sub-command PARENT_DIRECTORY
+[0.958s] 
+[0.958s] 
+[0.958s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.234s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.286s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.293s] -- Added test 'lint_cmake' to check CMake code style
+[1.297s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.323s] -- Added test 'xmllint' to check XML markup files
+[1.336s] -- Configuring incomplete, errors occurred!
+[1.337s] See also "/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/CMakeOutput.log".
+[1.344s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.350s] Invoked command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4

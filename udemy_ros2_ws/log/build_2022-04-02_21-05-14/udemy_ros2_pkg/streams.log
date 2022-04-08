@@ -1,0 +1,34 @@
+[0.055s] Invoking command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.220s] Invoked command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.371s] Invoking command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg
+[0.406s] -- Install configuration: ""
+[0.407s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[0.407s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[0.408s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/
+[0.408s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//subscriber.py
+[0.408s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//publisher.py
+[0.409s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sensor_publisher.py
+[0.409s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sr04.py
+[0.410s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//__init__.py
+[0.538s] Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/'...
+[0.539s] Compiling '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/hc_sensor_publisher.py'...
+[0.559s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[0.560s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+[0.560s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/hc_sensor_publisher.py
+[0.561s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/hc_sr04.py
+[0.561s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[0.562s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[0.562s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[0.562s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[0.563s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[0.563s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[0.564s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[0.564s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[0.565s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[0.565s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[0.566s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[0.568s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[0.568s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[0.569s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[0.570s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[0.577s] Invoked command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg

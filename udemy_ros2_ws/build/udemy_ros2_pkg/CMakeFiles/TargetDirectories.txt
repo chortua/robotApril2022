@@ -1,0 +1,9 @@
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/install/strip.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/install/local.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/install.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/list_install_components.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/rebuild_cache.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/edit_cache.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/test.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg_uninstall.dir
+/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg/CMakeFiles/uninstall.dir

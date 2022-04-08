@@ -1,0 +1,51 @@
+[0.058s] Invoking command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.248s] Invoked command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.394s] Invoking command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg
+[0.430s] -- Install configuration: ""
+[0.432s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[0.432s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[0.435s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/
+[0.436s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//subscriber.py
+[0.436s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//publisher.py
+[0.437s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sensor_publisher.py
+[0.437s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//__init__.py
+[0.438s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//build
+[0.438s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//build/COLCON_IGNORE
+[0.439s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//build/.built_by
+[0.440s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//log
+[0.441s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//log/COLCON_IGNORE
+[0.442s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//log/build_2022-04-03_10-24-33
+[0.442s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//log/build_2022-04-03_10-24-33/logger_all.log
+[0.444s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//log/build_2022-04-03_10-24-33/events.log
+[0.445s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//log/latest_build
+[0.445s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//log/latest
+[0.446s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install
+[0.446s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/.colcon_install_layout
+[0.447s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/COLCON_IGNORE
+[0.448s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/local_setup.bash
+[0.449s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/_local_setup_util_sh.py
+[0.451s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/local_setup.sh
+[0.452s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/_local_setup_util_ps1.py
+[0.453s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/local_setup.ps1
+[0.454s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/setup.bash
+[0.455s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/setup.ps1
+[0.456s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/local_setup.zsh
+[0.457s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/setup.zsh
+[0.458s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//install/setup.sh
+[0.607s] Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/'...
+[0.608s] Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/build'...
+[0.609s] Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/install'...
+[0.610s] Compiling '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/install/_local_setup_util_ps1.py'...
+[0.610s] Compiling '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/install/_local_setup_util_sh.py'...
+[0.612s] Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/log'...
+[0.612s] Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/log/build_2022-04-03_10-24-33'...
+[0.630s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[0.631s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+[0.632s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/hc_sensor_publisher.py
+[0.632s] CMake Error at cmake_install.cmake:61 (file):
+[0.633s]   file INSTALL cannot find
+[0.633s]   "/home/pi/workspace/udemy_ros2_ws/src/udemy_ros2_pkg/scripts/hc_sr04.py":
+[0.634s]   No such file or directory.
+[0.635s] 
+[0.636s] 
+[0.637s] Invoked command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg

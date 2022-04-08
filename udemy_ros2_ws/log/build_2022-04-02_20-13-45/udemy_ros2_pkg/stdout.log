@@ -1,0 +1,47 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg
+-- Install configuration: ""
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//subscriber.py
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//publisher.py
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sensor_publisher.py
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sr04.py
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//__init__.py
+Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/'...
+Compiling '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/hc_sr04.py'...
+***   File "/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/hc_sr04.py", line 34
+    return str(distance)
+    ^
+SyntaxError: invalid syntax
+
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/hc_sensor_publisher.py
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/hc_sr04.py
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml

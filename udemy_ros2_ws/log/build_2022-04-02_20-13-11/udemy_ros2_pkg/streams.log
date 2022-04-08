@@ -1,0 +1,39 @@
+[0.052s] Invoking command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.158s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.248s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.939s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.944s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.213s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.231s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.234s] -- Added test 'lint_cmake' to check CMake code style
+[1.236s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.246s] -- Added test 'xmllint' to check XML markup files
+[1.254s] -- Configuring done
+[1.266s] -- Generating done
+[1.271s] -- Build files have been written to: /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg
+[1.349s] Invoked command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg -- -j4 -l4
+[1.495s] Invoking command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg
+[1.529s] -- Install configuration: ""
+[1.530s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[1.530s] -- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[1.531s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/
+[1.532s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//subscriber.py
+[1.532s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//publisher.py
+[1.533s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sensor_publisher.py
+[1.533s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sr04.py
+[1.534s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//__init__.py
+[1.655s] Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/'...
+[1.656s] Compiling '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/hc_sr04.py'...
+[1.657s] ***   File "/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/hc_sr04.py", line 34
+[1.658s]     return str(distance)
+[1.659s]     ^
+[1.660s] SyntaxError: invalid syntax
+[1.661s] 
+[1.677s] -- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[1.678s] CMake Error at cmake_install.cmake:61 (file):
+[1.678s]   file INSTALL cannot find
+[1.679s]   "/home/pi/workspace/udemy_ros2_ws/src/udemy_ros2_pkg/scripts/subscribers.py":
+[1.679s]   No such file or directory.
+[1.680s] 
+[1.681s] 
+[1.683s] Invoked command in '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg

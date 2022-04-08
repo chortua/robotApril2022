@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000952] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.001961] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.044121] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.047192] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.050012] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.2.193 43226 22'), ('LC_TIME', 'C.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'C.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('PWD', '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg'), ('SSH_CONNECTION', '192.168.2.193 43226 192.168.2.105 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099113] (-) TimerEvent: {}
+[0.161220] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199249] (-) TimerEvent: {}
+[0.254447] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299388] (-) TimerEvent: {}
+[0.400000] (-) TimerEvent: {}
+[0.500701] (-) TimerEvent: {}
+[0.601452] (-) TimerEvent: {}
+[0.702094] (-) TimerEvent: {}
+[0.802694] (-) TimerEvent: {}
+[0.903562] (-) TimerEvent: {}
+[0.939019] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.943507] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.003663] (-) TimerEvent: {}
+[1.104381] (-) TimerEvent: {}
+[1.205066] (-) TimerEvent: {}
+[1.212599] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.230586] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.233600] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.235736] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.245349] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.254200] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.265344] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.270312] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg\n'}
+[1.305283] (-) TimerEvent: {}
+[1.348029] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[1.405534] (-) TimerEvent: {}
+[1.446594] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'install'}
+[1.487773] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg'], 'cwd': '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.2.193 43226 22'), ('LC_TIME', 'C.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'C.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('PWD', '/home/pi/workspace/udemy_ros2_ws/build/udemy_ros2_pkg'), ('SSH_CONNECTION', '192.168.2.193 43226 192.168.2.105 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.505730] (-) TimerEvent: {}
+[1.527148] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.527889] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh\n'}
+[1.528360] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv\n'}
+[1.529338] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/\n'}
+[1.529833] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//subscriber.py\n'}
+[1.530271] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//publisher.py\n'}
+[1.530701] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sensor_publisher.py\n'}
+[1.531097] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//hc_sr04.py\n'}
+[1.531508] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts//__init__.py\n'}
+[1.605842] (-) TimerEvent: {}
+[1.654328] (udemy_ros2_pkg) StdoutLine: {'line': b"Listing '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/'...\n"}
+[1.655546] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/hc_sr04.py'...\n"}
+[1.656460] (udemy_ros2_pkg) StdoutLine: {'line': b'***   File "/home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/python3.8/site-packages/scripts/hc_sr04.py", line 34\n'}
+[1.657479] (udemy_ros2_pkg) StdoutLine: {'line': b'    return str(distance)\n'}
+[1.658344] (udemy_ros2_pkg) StdoutLine: {'line': b'    ^\n'}
+[1.659204] (udemy_ros2_pkg) StdoutLine: {'line': b'SyntaxError: invalid syntax\n'}
+[1.660129] (udemy_ros2_pkg) StdoutLine: {'line': b'\n'}
+[1.676642] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py\n'}
+[1.677283] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py\n'}
+[1.677746] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/hc_sensor_publisher.py\n'}
+[1.678620] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/hc_sr04.py\n'}
+[1.682658] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg\n'}
+[1.684599] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg\n'}
+[1.685225] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[1.685804] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[1.687317] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh\n'}
+[1.687877] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv\n'}
+[1.689401] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash\n'}
+[1.690011] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh\n'}
+[1.691405] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh\n'}
+[1.691968] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv\n'}
+[1.693402] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv\n'}
+[1.695620] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg\n'}
+[1.696249] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake\n'}
+[1.696688] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake\n'}
+[1.697158] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/pi/workspace/udemy_ros2_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml\n'}
+[1.703136] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[1.707286] (-) TimerEvent: {}
+[1.809027] (-) TimerEvent: {}
+[1.907205] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 0}
+[1.910111] (-) TimerEvent: {}
+[1.910439] (-) EventReactorShutdown: {}
